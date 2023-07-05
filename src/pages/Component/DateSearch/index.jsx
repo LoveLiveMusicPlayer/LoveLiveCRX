@@ -12,7 +12,7 @@ const cheerio = require('cheerio')
 const aqours = 'https://zh.moegirl.org.cn/LoveLive!Sunshine!!/%E9%9F%B3%E4%B9%90%E5%88%97%E8%A1%A8'
 const niji = 'https://zh.moegirl.org.cn/LoveLive!%E8%99%B9%E5%92%B2%E5%AD%A6%E5%9B%AD%E5%AD%A6%E5%9B%AD%E5%81%B6%E5%83%8F%E5%90%8C%E5%A5%BD%E4%BC%9A/%E9%9F%B3%E4%B9%90%E5%88%97%E8%A1%A8'
 const liella = 'https://zh.moegirl.org.cn/LoveLive!Superstar!!/%E9%9F%B3%E4%B9%90%E5%88%97%E8%A1%A8'
-const lian = 'https://zh.moegirl.org.cn/%E8%8E%B2%E4%B9%8B%E7%A9%BA%E5%A5%B3%E5%AD%A6%E9%99%A2%E5%AD%A6%E5%9B%AD%E5%81%B6%E5%83%8F%E4%BF%B1%E4%B9%90%E9%83%A8'
+const lian = 'https://zh.moegirl.org.cn/%E8%8E%B2%E4%B9%8B%E7%A9%BA%E5%A5%B3%E5%AD%A6%E9%99%A2%E5%AD%A6%E5%9B%AD%E5%81%B6%E5%83%8F%E4%BF%B1%E4%B9%90%E9%83%A8/%E9%9F%B3%E4%B9%90%E5%88%97%E8%A1%A8'
 
 // 以下链接100%出现涩图
 // https://image.anosu.top/pixiv/direct?r18=1&keyword=
@@ -115,10 +115,14 @@ const DateSearch = () => {
                                         if (AppUtils.hasString(JSON.stringify(item.attribs), "title")) {
                                             let title
                                             if (AppUtils.hasString(item.children[0].constructor.toString(), "Element(")) {
-                                                const children = item.children[0].children
-                                                title = children[children.length - 1].data
+                                                const children = item.children[0]
+                                                if (children && children.children) {
+                                                    const child = children.children[children.children.length - 1]
+                                                    child && (title = child.data)
+                                                }
                                             } else {
-                                                title = item.children[0].data
+                                                const child = item.children[0]
+                                                child && (title = child.data)
                                                 if (AppUtils.isEmptyStr(title)) {
                                                     title = item.attribs["title"]
                                                 }
@@ -128,7 +132,8 @@ const DateSearch = () => {
                                             }
                                         } else if (AppUtils.hasString(JSON.stringify(item.attribs), "image")) {
                                             if (AppUtils.isEmptyStr(album.image)) {
-                                                album.image = item.children[0].attribs["src"]
+                                                const child = item.children[0]
+                                                child && (album.image = child.attribs["src"])
                                             }
                                         } else {
                                             loopParse(item.children, album)

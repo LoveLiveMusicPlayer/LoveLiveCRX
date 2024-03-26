@@ -64,7 +64,7 @@ const DateSearch = () => {
 
             const tempList = []
             result.forEach(item => {
-                if (rangeMoment[0] <= item.timestamp && item.timestamp <= rangeMoment[1]) {
+                if (rangeMoment[0].valueOf() <= item.timestamp && item.timestamp <= rangeMoment[1].valueOf()) {
                     tempList.push(item)
                 }
             })
@@ -81,7 +81,9 @@ const DateSearch = () => {
     }
 
     const handleData = (response) => {
-        const resp = response.data.replaceAll(`<span style="speak:none;visibility:hidden;color:transparent">0</span>`, "0")
+        let resp = response.data
+          .replaceAll(`<span style="speak:none;visibility:hidden;color:transparent">0</span>`, "0")
+          .replaceAll(`<span class="zero-fill" style="speak:none;visibility:hidden;color:transparent;display:none;">0</span>`, "0")
         let $ = cheerio.load(resp)
         const contentArr = []
         $('.wikitable').each(function (i, v) {

@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {getComponentStack, getCurrent, goTo, popToTop, Router} from 'react-chrome-extension-router';
 import DateSearch from "../Component/DateSearch";
+import PicCompress from "../Component/PicCompress";
 
 import {
   ContainerOutlined,
@@ -31,6 +32,9 @@ const Options = () => {
       case '2':
         goTo(DateSearch)
         break
+      case '3':
+        goTo(PicCompress)
+        break
       default:
         break
     }
@@ -39,7 +43,7 @@ const Options = () => {
   const items = [
     getItem('发售日期查询', '1', <PieChartOutlined/>),
     getItem('专辑导入助手', '2', <DesktopOutlined/>),
-    getItem('Option 3', '3', <ContainerOutlined/>),
+    getItem('图片压缩工具', '3', <ContainerOutlined/>),
     // getItem('Navigation One', 'sub1', <MailOutlined />, [
     //     getItem('Option 5', '5'),
     //     getItem('Option 6', '6'),

@@ -1,39 +1,63 @@
 [
   {
     "label": "高坂穂乃果",
-    "value": "11"
+    "value": "11",
+    "m": "0x10"
   },
   {
     "label": "绚濑绘里",
-    "value": "12"
+    "value": "12",
+    "m": "0x11"
   },
   {
     "label": "南小鸟",
-    "value": "14"
+    "value": "14",
+    "m": "0x12"
   },
   {
     "label": "园田海未",
-    "value": "18"
+    "value": "18",
+    "m": "0x13"
   },
   {
     "label": "星空凛",
-    "value": "1g"
+    "value": "1g",
+    "m": "0x14"
   },
   {
     "label": "西木野真姫",
-    "value": "1w"
+    "value": "1w",
+    "m": "0x15"
   },
   {
     "label": "东条希",
-    "value": "11s"
+    "value": "11s",
+    "m": "0x16"
   },
   {
     "label": "小泉花阳",
-    "value": "13k"
+    "value": "13k",
+    "m": "0x17"
   },
   {
     "label": "矢泽妮可",
-    "value": "174"
+    "value": "174",
+    "m": "0x18"
+  },
+  {
+    "label": "绮罗翼",
+    "value": "1e8",
+    "m": "0x19"
+  },
+  {
+    "label": "统堂英玲奈",
+    "value": "1sg",
+    "m": "0x1A"
+  },
+  {
+    "label": "优木杏树",
+    "value": "11kw",
+    "m": "0x1B"
   },
   {
     "label": "Printemps",
@@ -57,43 +81,68 @@
   },
   {
     "label": "女性シンガー",
-    "value": "U0xFE"
+    "value": "U0xFE",
+    "m": "0xFE"
   },
   {
     "label": "高海千歌",
-    "value": "21"
+    "value": "21",
+    "m": "0x20"
   },
   {
     "label": "樱内梨子",
-    "value": "22"
+    "value": "22",
+    "m": "0x21"
   },
   {
     "label": "松浦果南",
-    "value": "24"
+    "value": "24",
+    "m": "0x22"
   },
   {
     "label": "黑泽黛雅",
-    "value": "28"
+    "value": "28",
+    "m": "0x23"
   },
   {
     "label": "渡边曜",
-    "value": "2g"
+    "value": "2g",
+    "m": "0x24"
   },
   {
     "label": "津岛善子",
-    "value": "2w"
+    "value": "2w",
+    "m": "0x25"
   },
   {
     "label": "国木田花丸",
-    "value": "21s"
+    "value": "21s",
+    "m": "0x26"
   },
   {
     "label": "小原鞠莉",
-    "value": "23k"
+    "value": "23k",
+    "m": "0x27"
   },
   {
     "label": "黑泽露比",
-    "value": "274"
+    "value": "274",
+    "m": "0x28"
+  },
+  {
+    "label": "鹿角圣良",
+    "value": "2e8",
+    "m": "0x29"
+  },
+  {
+    "label": "鹿角理亚",
+    "value": "2sg",
+    "m": "0x2A"
+  },
+  {
+    "label": "莱拉普斯",
+    "value": "21kw",
+    "m": "0x2B"
   },
   {
     "label": "CYaRon!",
@@ -106,6 +155,10 @@
   {
     "label": "Guilty Kiss",
     "value": "24i"
+  },
+  {
+    "label": "わいわいわい",
+    "value": "28g"
   },
   {
     "label": "Aqours",
@@ -121,51 +174,63 @@
   },
   {
     "label": "上原步梦",
-    "value": "31"
+    "value": "31",
+    "m": "0x30"
   },
   {
     "label": "中须霞",
-    "value": "32"
+    "value": "32",
+    "m": "0x31"
   },
   {
     "label": "樱坂雫",
-    "value": "34"
+    "value": "34",
+    "m": "0x32"
   },
   {
     "label": "朝香果林",
-    "value": "38"
+    "value": "38",
+    "m": "0x33"
   },
   {
     "label": "宫下爱",
-    "value": "3g"
+    "value": "3g",
+    "m": "0x34"
   },
   {
     "label": "近江彼方",
-    "value": "3w"
+    "value": "3w",
+    "m": "0x35"
   },
   {
     "label": "优木雪菜",
-    "value": "31s"
+    "value": "31s",
+    "m": "0x36"
   },
   {
     "label": "艾玛·维尔德",
-    "value": "33k"
+    "value": "33k",
+    "m": "0x37"
   },
   {
     "label": "天王寺璃奈",
-    "value": "374"
+    "value": "374",
+    "m": "0x38"
   },
   {
     "label": "三船栞子",
-    "value": "3e8"
+    "value": "3e8",
+    "m": "0x39"
   },
   {
     "label": "米娅·泰勒",
-    "value": "3sg"
+    "value": "3sg",
+    "m": "0x3A"
   },
   {
     "label": "钟岚珠",
-    "value": "31kw"
+    "value": "31kw",
+    "m": "0x3B"
   },
   {
     "label": "A・ZU・NA",
@@ -184,64 +249,244 @@
     "value": "32rk"
   },
   {
-    "label": "虹咲学园学园偶像同好会",
+    "label": "虹咲学园学园偶像同好会（九人）",
     "value": "3e7"
   },
   {
-    "label": "虹咲学园学园偶像同好会",
+    "label": "虹咲学园学园偶像同好会（十二人）",
     "value": "335r"
   },
   {
     "label": "涩谷香音",
-    "value": "41"
+    "value": "41",
+    "m": "0x40"
   },
   {
     "label": "唐可可",
-    "value": "42"
+    "value": "42",
+    "m": "0x41"
   },
   {
     "label": "岚千砂都",
-    "value": "44"
+    "value": "44",
+    "m": "0x42"
   },
   {
     "label": "平安名堇",
-    "value": "48"
+    "value": "48",
+    "m": "0x43"
   },
   {
     "label": "叶月恋",
-    "value": "4g"
+    "value": "4g",
+    "m": "0x44"
   },
   {
     "label": "樱小路希奈子",
-    "value": "4w"
+    "value": "4w",
+    "m": "0x45"
   },
   {
     "label": "米女芽衣",
-    "value": "41s"
+    "value": "41s",
+    "m": "0x46"
   },
   {
     "label": "若菜四季",
-    "value": "43k"
+    "value": "43k",
+    "m": "0x47"
   },
   {
     "label": "鬼冢夏美",
-    "value": "474"
-  },
-  {
-    "label": "Sunny Passion",
-    "value": "416o"
+    "value": "474",
+    "m": "0x48"
   },
   {
     "label": "维恩玛格丽特",
-    "value": "41kw"
+    "value": "4e8",
+    "m": "0x49"
   },
   {
-    "label": "Liella!",
+    "label": "鬼冢冬毬",
+    "value": "4sg",
+    "m": "0x4A"
+  },
+  {
+    "label": "柊摩央",
+    "value": "41kw",
+    "m": "0x4B"
+  },
+  {
+    "label": "圣泽悠奈",
+    "value": "435s",
+    "m": "0x4C"
+  },
+  {
+    "label": "Sunny Passion",
+    "value": "4qo"
+  },
+  {
+    "label": "CatChu!",
+    "value": "421"
+  },
+  {
+    "label": "KALEIDOSCORE",
+    "value": "4eq"
+  },
+  {
+    "label": "5yncri5e!",
+    "value": "4144"
+  },
+  {
+    "label": "Liella!（五人）",
     "value": "4v"
   },
   {
-    "label": "Liella!",
+    "label": "Liella!（九人）",
     "value": "4e7"
+  },
+  {
+    "label": "Liella!（十一人）",
+    "value": "41kv"
+  },
+  {
+    "label": "椿瑠璃香",
+    "value": "51",
+    "m": "0x50"
+  },
+  {
+    "label": "皇柚叶",
+    "value": "52",
+    "m": "0x51"
+  },
+  {
+    "label": "北条雪乃",
+    "value": "54",
+    "m": "0x52"
+  },
+  {
+    "label": "天草光",
+    "value": "58",
+    "m": "0x53"
+  },
+  {
+    "label": "三笠玛雅",
+    "value": "5g",
+    "m": "0x54"
+  },
+  {
+    "label": "泷泽杏",
+    "value": "5w",
+    "m": "0x55"
+  },
+  {
+    "label": "若槻美铃",
+    "value": "51s",
+    "m": "0x56"
+  },
+  {
+    "label": "来栖户亚",
+    "value": "53k",
+    "m": "0x57"
+  },
+  {
+    "label": "铃贺丽奈",
+    "value": "574",
+    "m": "0x58"
+  },
+  {
+    "label": "晴风沙耶香",
+    "value": "5e8",
+    "m": "0x59"
+  },
+  {
+    "label": "椿咲花女子高校",
+    "value": "5v"
+  },
+  {
+    "label": "泷樱女学院",
+    "value": "5rk"
+  },
+  {
+    "label": "日野下花帆",
+    "value": "61",
+    "m": "0x60"
+  },
+  {
+    "label": "村野沙耶香",
+    "value": "62",
+    "m": "0x61"
+  },
+  {
+    "label": "乙宗梢",
+    "value": "64",
+    "m": "0x62"
+  },
+  {
+    "label": "夕雾缀理",
+    "value": "68",
+    "m": "0x63"
+  },
+  {
+    "label": "大泽瑠璃乃",
+    "value": "6g",
+    "m": "0x64"
+  },
+  {
+    "label": "藤岛慈",
+    "value": "6w",
+    "m": "0x65"
+  },
+  {
+    "label": "百生吟子",
+    "value": "61s",
+    "m": "0x66"
+  },
+  {
+    "label": "徒町小铃‎",
+    "value": "63k",
+    "m": "0x67"
+  },
+  {
+    "label": "安养寺姬芽",
+    "value": "674",
+    "m": "0x68"
+  },
+  {
+    "label": "スリーズブーケ（二人）",
+    "value": "65"
+  },
+  {
+    "label": "スリーズブーケ（三人）",
+    "value": "61x"
+  },
+  {
+    "label": "DOLLCHESTRA（二人）",
+    "value": "6a"
+  },
+  {
+    "label": "DOLLCHESTRA（三人）",
+    "value": "63u"
+  },
+  {
+    "label": "みらくらぱーく！（二人）",
+    "value": "61c"
+  },
+  {
+    "label": "みらくらぱーく！（三人）",
+    "value": "68g"
+  },
+  {
+    "label": "莲之空女学院学园偶像俱乐部（六人）",
+    "value": "61r"
+  },
+  {
+    "label": "莲之空女学院学园偶像俱乐部（九人）",
+    "value": "6e7"
+  },
+  {
+    "label": "椿咲花女子高校、泷樱女学院",
+    "value": "5sf"
   },
   {
     "label": "A-N-L",
@@ -252,43 +497,7 @@
     "value": "U0xFF"
   },
   {
-    "label": "日野下花帆",
-    "value": "61"
-  },
-  {
-    "label": "村野沙耶香",
-    "value": "62"
-  },
-  {
-    "label": "乙宗梢",
-    "value": "64"
-  },
-  {
-    "label": "夕雾缀理",
-    "value": "68"
-  },
-  {
-    "label": "大泽瑠璃乃",
-    "value": "6g"
-  },
-  {
-    "label": "藤岛慈",
-    "value": "6w"
-  },
-  {
-    "label": "スリーズブーケ",
-    "value": "65"
-  },
-  {
-    "label": "DOLLCHESTRA",
-    "value": "6a"
-  },
-  {
-    "label": "みらくらぱーく！",
-    "value": "61c"
-  },
-  {
-    "label": "莲之空女学院学园偶像俱乐部",
-    "value": "61r"
+    "label": "AiScReam",
+    "value": "U0x280x300x47"
   }
 ]
